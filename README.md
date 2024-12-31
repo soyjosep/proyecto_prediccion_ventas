@@ -1,18 +1,16 @@
-Aquí tienes un archivo README.md profesional y completo para tu proyecto de predicción de ventas:
+# Predicción de Ventas Mensuales para Optimización de Inventarios y Recursos
 
-Predicción de Ventas Mensuales para Optimización de Inventarios y Recursos
-
-Descripción del Proyecto
+## Descripción del Proyecto
 
 Este proyecto tiene como objetivo predecir las ventas mensuales de una cadena de tiendas utilizando técnicas de análisis de datos y modelado predictivo. La predicción de ventas ayuda a optimizar la gestión de inventarios, reducir costos operativos y mejorar la toma de decisiones estratégicas.
 
-Objetivos
+## Objetivos
 	1.	Analizar datos históricos de ventas para identificar patrones, tendencias y estacionalidad.
 	2.	Construir modelos predictivos para estimar ventas futuras con alta precisión.
 	3.	Optimizar inventarios y recursos basados en las predicciones obtenidas.
 	4.	Visualizar los resultados en un dashboard interactivo que facilite la toma de decisiones.
 
-Dataset
+## Dataset
 
 El dataset utilizado para este proyecto es el Rossmann Store Sales, disponible en Kaggle. Este dataset incluye información detallada sobre:
 	•	Ventas diarias de múltiples tiendas.
@@ -27,26 +25,26 @@ Características principales del dataset:
 	•	StateHoliday: Indica si el día era festivo.
 	•	SchoolHoliday: Indica si el día era festivo escolar.
 
-Tecnologías y Herramientas Utilizadas
+## Tecnologías y Herramientas Utilizadas
 
-Lenguaje de Programación:
+### Lenguaje de Programación:
 	•	Python
 
-Bibliotecas:
+### Bibliotecas:
 	•	Análisis de datos: pandas, numpy
 	•	Visualización: matplotlib, seaborn
 	•	Modelado predictivo: scikit-learn, statsmodels, fbprophet
 	•	Dashboard interactivo: Streamlit (opcional)
 
-Entorno de Trabajo:
+### Entorno de Trabajo:
 	•	Visual Studio Code
 	•	Git para control de versiones
 	•	Kaggle para obtención del dataset
 
-Frameworks adicionales (futuros pasos):
+### Frameworks adicionales (futuros pasos):
 	•	Power BI o Tableau para visualización avanzada (opcional).   
 
-Plan de Trabajo       
+### Plan de Trabajo       
 	1.	Carga y Exploración de Datos:       
 	•	Inspección inicial del dataset.       
 	•	Visualización de tendencias y estacionalidad.      
@@ -66,36 +64,36 @@ Plan de Trabajo
 	6.	Documentación y Presentación:         
 	•	Resumen de hallazgos y recomendaciones.        
     
-Cómo Ejecutar el Proyecto
+### Cómo Ejecutar el Proyecto
 
-1. Clonar el Repositorio
+#### 1. Clonar el Repositorio
 
 git clone https://github.com/tuusuario/prediccion_ventas.git
 cd prediccion_ventas
 
-2. Crear un Entorno Virtual
+#### 2. Crear un Entorno Virtual
 
 python3 -m venv env
 source env/bin/activate  # En Mac/Linux
 env\Scripts\activate  # En Windows
 
-3. Instalar Dependencias
+#### 3. Instalar Dependencias
 
 pip install -r requirements.txt
 
-4. Ejecutar Scripts
+#### 4. Ejecutar Scripts
 	•	Exploración inicial: Ejecuta los notebooks en la carpeta notebooks.
 	•	Entrenamiento: Usa src/train_model.py para entrenar modelos.
 	•	Dashboard: Ejecuta dashboard/app.py para visualizar el dashboard interactivo.
 
 streamlit run dashboard/app.py
 
-Resultados Esperados
+### Resultados Esperados
 	1.	Predicciones precisas de ventas mensuales con base en datos históricos.
 	2.	Identificación de factores clave que influyen en las ventas (promociones, días festivos, etc.).
 	3.	Recomendaciones accionables para optimizar inventarios y recursos.
 	4.	Dashboard interactivo para uso práctico en la toma de decisiones.
 
-Contacto
+### Contacto
 
 Si tienes preguntas o comentarios, no dudes en contactarme a través de mi GitHub o por correo electrónico: jos.gal.seb@gmail.com.
