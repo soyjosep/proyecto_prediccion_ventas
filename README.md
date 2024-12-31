@@ -44,32 +44,7 @@ Entorno de Trabajo:
 	•	Kaggle para obtención del dataset
 
 Frameworks adicionales (futuros pasos):
-	•	Power BI o Tableau para visualización avanzada (opcional).
-
-Estructura del Proyecto
-
-prediccion_ventas/           
-│      
-├── data/         
-│   ├── train.csv         # Datos de entrenamiento      
-│   ├── test.csv          # Datos de prueba (opcional)       
-│       
-├── notebooks/       
-│   ├── 01_exploracion_datos.ipynb    # Exploración inicial del dataset    
-│   ├── 02_preprocesamiento.ipynb     # Preprocesamiento de datos       
-│   ├── 03_modelado.ipynb             # Modelado predictivo       
-│      
-├── src/      
-│   ├── utils.py          # Funciones auxiliares      
-│   ├── train_model.py    # Script para entrenar modelos     
-│   ├── predict.py        # Script para realizar predicciones      
-│      
-├── dashboard/       
-│   ├── app.py            # Aplicación Streamlit      
-│      
-├── README.md             # Documentación del proyecto      
-├── requirements.txt      # Dependencias del proyecto      
-├── .gitignore            # Archivos a ignorar en Git       
+	•	Power BI o Tableau para visualización avanzada (opcional).   
 
 Plan de Trabajo       
 	1.	Carga y Exploración de Datos:       
