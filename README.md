@@ -48,49 +48,49 @@ Frameworks adicionales (futuros pasos):
 
 Estructura del Proyecto
 
-prediccion_ventas/
-│
-├── data/
-│   ├── train.csv         # Datos de entrenamiento
-│   ├── test.csv          # Datos de prueba (opcional)
-│
-├── notebooks/
-│   ├── 01_exploracion_datos.ipynb    # Exploración inicial del dataset
-│   ├── 02_preprocesamiento.ipynb     # Preprocesamiento de datos
-│   ├── 03_modelado.ipynb             # Modelado predictivo
-│
-├── src/
-│   ├── utils.py          # Funciones auxiliares
-│   ├── train_model.py    # Script para entrenar modelos
-│   ├── predict.py        # Script para realizar predicciones
-│
-├── dashboard/
-│   ├── app.py            # Aplicación Streamlit
-│
-├── README.md             # Documentación del proyecto
-├── requirements.txt      # Dependencias del proyecto
-├── .gitignore            # Archivos a ignorar en Git
+prediccion_ventas/           
+│      
+├── data/         
+│   ├── train.csv         # Datos de entrenamiento      
+│   ├── test.csv          # Datos de prueba (opcional)       
+│       
+├── notebooks/       
+│   ├── 01_exploracion_datos.ipynb    # Exploración inicial del dataset    
+│   ├── 02_preprocesamiento.ipynb     # Preprocesamiento de datos       
+│   ├── 03_modelado.ipynb             # Modelado predictivo       
+│      
+├── src/      
+│   ├── utils.py          # Funciones auxiliares      
+│   ├── train_model.py    # Script para entrenar modelos     
+│   ├── predict.py        # Script para realizar predicciones      
+│      
+├── dashboard/       
+│   ├── app.py            # Aplicación Streamlit      
+│      
+├── README.md             # Documentación del proyecto      
+├── requirements.txt      # Dependencias del proyecto      
+├── .gitignore            # Archivos a ignorar en Git       
 
-Plan de Trabajo
-	1.	Carga y Exploración de Datos:
-	•	Inspección inicial del dataset.
-	•	Visualización de tendencias y estacionalidad.
-	2.	Preprocesamiento:
-	•	Limpieza de datos (valores nulos, duplicados).
-	•	Codificación de variables categóricas.
-	•	Normalización o escalado si es necesario.
-	3.	Análisis Exploratorio (EDA):
-	•	Análisis de correlación.
-	•	Impacto de variables como promociones, días festivos, etc.
-	4.	Modelado Predictivo:
-	•	Creación de modelos de series temporales (ARIMA, Prophet).
-	•	Prueba de modelos de Machine Learning como Random Forest o Gradient Boosting.
-	•	Evaluación con métricas: RMSE, MAE.
-	5.	Dashboard Interactivo:
-	•	Creación de un dashboard para visualizar predicciones y análisis.
-	6.	Documentación y Presentación:
-	•	Resumen de hallazgos y recomendaciones.
-
+Plan de Trabajo       
+	1.	Carga y Exploración de Datos:       
+	•	Inspección inicial del dataset.       
+	•	Visualización de tendencias y estacionalidad.      
+	2.	Preprocesamiento:      
+	•	Limpieza de datos (valores nulos, duplicados).      
+	•	Codificación de variables categóricas.       
+	•	Normalización o escalado si es necesario.       
+	3.	Análisis Exploratorio (EDA):       
+	•	Análisis de correlación.        
+	•	Impacto de variables como promociones, días festivos, etc.       
+	4.	Modelado Predictivo:       
+	•	Creación de modelos de series temporales (ARIMA, Prophet).       
+	•	Prueba de modelos de Machine Learning como Random Forest o Gradient Boosting.       
+	•	Evaluación con métricas: RMSE, MAE.           
+	5.	Dashboard Interactivo:         
+	•	Creación de un dashboard para visualizar predicciones y análisis.          
+	6.	Documentación y Presentación:         
+	•	Resumen de hallazgos y recomendaciones.        
+    
 Cómo Ejecutar el Proyecto
 
 1. Clonar el Repositorio
