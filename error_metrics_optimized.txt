@@ -1,0 +1,5 @@
+Mean Absolute Error: 0.1459
+Median Absolute Error: 0.0955
+Standard Deviation of Errors: 0.1697
+Max Absolute Error: 5.1920
+Range of Errors: 5.1920

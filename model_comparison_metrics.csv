@@ -1,0 +1,5 @@
+Modelo,MAE,RMSE,R²
+Original,0.1459,0.2237,0.9498
+Percentil 98,0.1205,0.1984,0.955
+Percentil 95,0.1103,0.1871,0.9601
+Percentil 90,0.0987,0.1754,0.9654
