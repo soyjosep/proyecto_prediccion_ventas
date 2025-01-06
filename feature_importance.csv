@@ -1,0 +1,14 @@
+Feature,Importance
+Customers,55110.0
+Store,41509.0
+Day,23393.0
+Month,19594.0
+DayOfWeek,19558.0
+Year,8181.0
+Promo,8021.0
+SchoolHoliday,4448.0
+StateHoliday_0,2302.0
+Open,896.0
+StateHoliday_a,372.0
+StateHoliday_b,147.0
+StateHoliday_c,86.0
